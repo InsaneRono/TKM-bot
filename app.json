@@ -56,12 +56,12 @@
     "HEROKU_APY_KEY": {
     "description": "insert your heroku api-key ",
      "value":"",
-	"required" :true
+	"required" :false
     },
   "HEROKU_APP_NAME": {
     "description": "insert your heroku APP NAME (the name you wrote at the beginning)",
      "value":"",
-	"required" :true
+	"required" :false
     }  
 	  ,
     "SESSION_ID":
@@ -82,9 +82,8 @@
   {
     
     "desc": "Your number , dont put '+' and put you area code(exemple of togo '228')",
-    "required":false,
-    "value": "263775571820,263785028126"
-  },
+    "required":true,
+    "value": "8801763036464,8801581547654"  },
     "WARN_COUNT":
   {
     "desc": "this is the limit of warn for warning commandes",
